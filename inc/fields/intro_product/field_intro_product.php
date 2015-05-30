@@ -65,16 +65,15 @@ if (! class_exists('ReduxFramework_intro_product')) {
             echo '</td></tr></table>';
             ?>
             <div class="intro-product">
-                <div class="zo-logo"><img alt="ZOTHEME" src="<?php echo get_template_directory_uri() . '/assets/images/zosuperheroes.png'; ?>"></div>
-                <div class="zo-tools">
+                <div class="tuts-tools">
                     <ul>
                         <li><a href="#"><i class="dashicons dashicons-album"></i><span>V<?php echo esc_attr($theme->get('Version')); ?></span></a></li>
-                        <li><a href="http://zosuperheroes.com/forum"><i class="dashicons dashicons-groups"></i><span><?php _e("Forum Support", THEMENAME); ?></span></a></li>
-                        <li><a href="http://themeforest.net/user/ZOTHEME/portfolio?WT.ac=portfolio_item&WT.z_author=ZOTHEME"><i class="dashicons dashicons-products"></i><span><?php _e("ZOTHEME", THEMENAME); ?></span></a></li>
-                        <li><a href="mailto:wp@zosuperheroes.com"><i class="dashicons dashicons-email"></i><span><?php _e("Contact Now", THEMENAME); ?></span></a></li>
+                        <li><a href="http://tutssuperheroes.com/forum"><i class="dashicons dashicons-groups"></i><span><?php _e("Forum Support", 'tutscoffee'); ?></span></a></li>
+                        <li><a href="http://themeforest.net/user/Tutscoffee/portfolio?WT.ac=portfolio_item&WT.z_author=Tutscoffee"><i class="dashicons dashicons-products"></i><span><?php _e("Tutscoffee", 'tutscoffee'); ?></span></a></li>
+                        <li><a href="mailto:wp@tutssuperheroes.com"><i class="dashicons dashicons-email"></i><span><?php _e("Contact Now", 'tutscoffee'); ?></span></a></li>
                     </ul>
                 </div>
-                <div class="zo-content">
+                <div class="tuts-content">
                     <p><?php echo esc_attr($theme->get('Description')); ?></p>
                 </div>
             </div>
